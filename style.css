@@ -1,0 +1,198 @@
+body {
+    margin: 0%;
+}
+/*top bar*/
+.topBar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: white;
+}
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    font-weight: bolder;
+    margin-bottom: 0px;
+}
+.topBar p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    color: gray;
+    margin-bottom: 10px;
+}
+.related {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+.related p {
+    color: #f18cb2;
+    padding-left: 10px;
+    margin: 0px;
+}
+h5 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: dimgray;
+    font-size: 18px;
+    font-weight: bolder;
+    margin: 0px;
+
+}
+/*navigation starts here*/
+.navigation {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: white;
+    align-items: center;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.navigation p {
+    margin: 0px;
+}
+.cathegory {
+    display: flex;
+    flex-direction: row;
+}
+.popular {
+    border-radius: 10px;
+    border: solid;
+    border-color: #feeff4;
+    width: 150px;
+    margin: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.popular {
+    border-radius: 10px;
+    border: solid;
+    border-color: #feeff4;
+    width: 150px;
+    margin: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.popular:hover {
+    background-color: #feeff4;
+    transition-duration: 80ms;
+}
+.popular p {
+    padding-left: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    color: #4d4c5c;
+
+}
+.filters {
+    border-radius: 10px;
+    border: solid;
+    border-color: #f3f3f5;
+    width: 100px;
+    margin: 0px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.filters:hover {
+    background-color: #feeff4;
+    transition-duration: 80ms;
+
+}
+.filters p {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    color: #4d4c5c;
+
+}
+.cathegories {
+    border-radius: 20px;
+    background-color: white;
+    margin: 0px;
+    border-radius: 10px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    color: gray;
+}
+.cathegories:hover {
+    border-radius: 20px;
+    background-color: #f3f3f4;
+    margin: 0px;
+    border-radius: 10px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    color: #4d4c5c;
+}
+
+/*content starts here*/
+.content {
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding-left: 5%;
+    padding-right: 5%;
+    gap: 20px;
+    padding-top: 20px;
+    align-content: flex-start;
+}
+/*cards*/
+.cards {
+    background-color: turquoise;
+    flex-basis: 22%;
+    min-width: 370px;
+    display: flex;
+    flex-direction: column;
+}
+.cards p {
+    margin: 0px;
+    padding-left: 10px;
+}
+h6 {
+    margin: 0px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.cardContent {
+    height: 200px;
+    width: 150px;
+    
+}
+.cardStrip {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+    background-color: white;
+    
+}
+.cardStripLeft {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+    text-align: center;
+}
+.cardStripRight {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+}
+.profilePhoto {
+    width: 30px;
+    height: auto;
+    border-radius: 50%;
+}
