@@ -152,6 +152,7 @@ h5 {
     align-content: flex-start;
 }
 /*cards*/
+/*card content*/
 .cards {
     background-color: turquoise;
     flex-basis: 22%;
@@ -168,6 +169,7 @@ h5 {
     object-fit: fill;
     object-position: center;
 }
+/*card strip*/
 .cardStrip {
     display: flex;
     flex-direction: row;
