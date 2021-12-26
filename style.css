@@ -55,6 +55,9 @@ h5 {
 .cathegory {
     display: flex;
     flex-direction: row;
+    overflow: hidden;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 .popular {
     border-radius: 10px;
@@ -152,23 +155,18 @@ h5 {
 .cards {
     background-color: turquoise;
     flex-basis: 22%;
-    min-width: 370px;
+    min-width: 400px;
     display: flex;
     flex-direction: column;
 }
-.cards p {
-    margin: 0px;
-    padding-left: 10px;
-}
-h6 {
-    margin: 0px;
-    padding-left: 10px;
-    padding-right: 10px;
-}
 .cardContent {
-    height: 200px;
-    width: 150px;
-    
+    height: 300px;
+    width: 180px;  
+}
+.cardImage {
+    height: 100%;
+    object-fit: fill;
+    object-position: center;
 }
 .cardStrip {
     display: flex;
@@ -191,8 +189,20 @@ h6 {
     justify-content: space-between;
     align-content: center;
 }
-.profilePhoto {
+.profileIcons {
     width: 30px;
     height: auto;
     border-radius: 50%;
+}
+.cards p {
+    margin: 0px;
+    padding-left: 10px;
+    align-self: center;
+    padding-right: 10px;
+}
+h6 {
+    margin: 0px;
+    padding-left: 10px;
+    padding-right: 10px;
+    align-self: center;
 }
